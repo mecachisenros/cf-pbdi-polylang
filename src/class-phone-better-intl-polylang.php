@@ -51,7 +51,7 @@ class CF_Phone_Better_Intl_Polylang {
 	public function filter_phone_better_initial_country( $options, $field, $form ) {
 
 		// bail if not enabled
-		if ( ! isset( $field['config']['is_pollylang_initial_country'] ) )
+		if ( ! isset( $field['config']['is_polylang_initial_country'] ) )
 			return $options;
 
 		// get current locale
